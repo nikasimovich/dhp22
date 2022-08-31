@@ -1,0 +1,139 @@
+body {
+  color: #114bd1;
+  padding: 50px;
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+a {
+  color: #114bd1;
+  text-decoration: none;
+}
+
+a.button {
+  display: block;
+  margin-top: 20px;
+  max-width: 200px;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid; 
+  margin-right: 20px;
+  transition: all 100ms ease-in;
+}
+
+a.button:hover {
+  background-color: #114bd1;
+  color: white;
+}
+
+.buttons {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+}
+
+header {
+  display:flex;
+}
+
+.intro {
+  height: 100vh;
+  padding-top: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+blockquote {
+    font-size: 9vw;
+    line-height: .85;
+    font-family: oblong, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0;
+}
+
+.quote {
+  margin-left: -.4em;
+}
+
+.credit {
+  margin-top: 20px;
+}
+
+
+.item {
+  width: 33%;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: #00ff8c;
+}
+
+::selection {
+  color: #00ff8c;
+}
+
+body::-webkit-scrollbar {
+  width: 15px;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: none;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #114bd1;
+  outline: 1px solid #114bd1;
+}
+
+.week {
+  border-bottom: 1px solid;
+  padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+  body {
+    overflow-x: hidden;
+    padding: 10px;
+    font-size: 18px;
+  }
+  header {
+    flex-wrap: wrap;
+  }
+
+  .item {
+    width: 50%;
+    margin-top: 20px;
+  }
+  .intro {
+    padding: 20px;
+  }
+  blockquote{
+    font-size: 80px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+}
